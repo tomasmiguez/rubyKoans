@@ -1,0 +1,2 @@
+Al comparar por null hacer obj directamente, mas rapido que las alternativas. https://stackoverflow.com/questions/1972266/obj-nil-vs-obj-nil/37287459
+
