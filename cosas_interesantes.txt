@@ -5,3 +5,5 @@ Nil es un singleton??
 Indexar fuera de range devuelve nil.
 
 Shift y unshift son analogos a push y pop, pero para el comienzo.
+
+Parallel assignment es cool. Splat operator (*) para lo q sobra.
