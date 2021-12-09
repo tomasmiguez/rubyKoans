@@ -48,3 +48,7 @@ Regex:
     | es or
 
 scan para todas las ocurrencias, sub para find and replace, gsub para find and replace all
+
+Una cantidad de argumentos invalida es error de ejecucion, no sintaxis.
+
+Poniendole un * adelante a un parametro lo vuelve de largo variable y se interpreta como array.
