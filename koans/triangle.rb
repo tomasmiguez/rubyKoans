@@ -16,7 +16,7 @@
 def triangle(a, b, c)
   sides = [a, b, c]
   
-  if sides.any? { |side| side <= 0}
+  if sides.any? { |side| side <= 0 }
     raise TriangleError.new("Lengths can´t be less than 0.\n")
   elsif sides.max() >= sides.sum - sides.max()
     raise TriangleError.new("The side of length #{sides.max()} is longer than the sum of #{sides - [sides.max()]}.\n")
