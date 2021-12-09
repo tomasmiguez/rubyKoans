@@ -2,8 +2,14 @@ Al comparar por null hacer obj directamente, mas rapido que las alternativas. ht
 
 Nil es un singleton??
 
-Indexar fuera de range devuelve nil.
+Indexar array fuera de range devuelve nil.
 
 Shift y unshift son analogos a push y pop, pero para el comienzo.
 
 Parallel assignment es cool. Splat operator (*) para lo q sobra.
+
+En un hash [] devuelve nil si no lo encuentra, fetch levanta KeyError, y se le puede pasar un valor por defecto o bloque a la fetch(key_name) { |key| "default" }.
+
+Mergear hashes sobreescribe los valores repetidos.
+
+Si se usa un valor por defecto en un hash, va a ser siempre el mismo objeto, no una copia.
