@@ -13,3 +13,16 @@ En un hash [] devuelve nil si no lo encuentra, fetch levanta KeyError, y se le p
 Mergear hashes sobreescribe los valores repetidos.
 
 Si se usa un valor por defecto en un hash, va a ser siempre el mismo objeto, no una copia.
+
+Podes usar single quotes para string con double quotes y viceversa. Si no la clasica, escape sequence con \. Tambien podes usar de delimitador cualquier caracter
+no alfa numerico precedido de %.
+
+Las flexible quotes sirven para multiline strings.
+
+Usando <<IDENTIFIER <CONTENT> IDENTIFIER se puede crear un heredoc.
+
+<< concatena in place, += es un assignment asi q hace una copia. Es significativamente mas rapido tmb.
+
+Strings con "" tienen escape characters, con '' no.
+
+Strings se pueden splitear, si no se especifica nada, se divide por whitespaces. Y se pueden joinear.
