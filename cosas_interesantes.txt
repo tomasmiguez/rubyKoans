@@ -28,3 +28,23 @@ Strings con "" tienen escape characters, con '' no.
 Strings se pueden splitear, si no se especifica nada, se divide por whitespaces. Y se pueden joinear.
 
 == es comparacion estandar, equal? pregunta si se refieren al mismo objeto, eql? es basicamente == pero en Numeric no hace type conversion, etc...
+
+Regex:
+    + es 1 o mas
+    * cero o mas
+    [] para definir opciones (clase de caracteres)
+        - define un rango
+        ^ niega
+    \d digitos
+    \w palabra
+    Las abreviaciones de clases de caracteres se niegan con mayusculas
+    . cualquier cosa menos \n
+    \A fija al comienzo de la secuencia
+    \z fija al final de la secuencia
+    ^ fija al comienzo de linea
+    $ fija al final de linea
+    \b fija al limite de una palabra
+    () agrupan cosas
+    | es or
+
+scan para todas las ocurrencias, sub para find and replace, gsub para find and replace all
