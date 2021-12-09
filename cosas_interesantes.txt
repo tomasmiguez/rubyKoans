@@ -52,3 +52,7 @@ scan para todas las ocurrencias, sub para find and replace, gsub para find and r
 Una cantidad de argumentos invalida es error de ejecucion, no sintaxis.
 
 Poniendole un * adelante a un parametro lo vuelve de largo variable y se interpreta como array.
+
+Constantes se definen con la primera letra en mayuscula.
+
+Herencia le gana a nesting para valores de constantes por lo menos.
