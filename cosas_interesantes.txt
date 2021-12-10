@@ -68,3 +68,7 @@ attr_reader crea getters, attr_accesor crea los 2.
 Constructor se llama initialize
 
 to_s se usa por defecto en string interpolation
+
+:: para scope global
+
+Se pueden obtener constantes explicitamente con const_get
