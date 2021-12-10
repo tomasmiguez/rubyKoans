@@ -56,3 +56,15 @@ Poniendole un * adelante a un parametro lo vuelve de largo variable y se interpr
 Constantes se definen con la primera letra en mayuscula.
 
 Herencia le gana a nesting para valores de constantes por lo menos.
+
+Con instance_variables se pueden obtener los atributos
+
+instance_eval evalua codigo en el contexto del objeto que recibe el mensaje
+
+@ para atributos
+
+attr_reader crea getters, attr_accesor crea los 2.
+
+Constructor se llama initialize
+
+to_s se usa por defecto en string interpolation
