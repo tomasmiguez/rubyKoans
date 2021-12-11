@@ -76,3 +76,9 @@ Se pueden obtener constantes explicitamente con const_get
 Se pueden definir metodos en objetos individuales (?)
 
 Class methods se definen como class.method o self.method o class << self
+
+Se puede mandar un mensaje explicitamente con send y el simbolo o dinamicamente con string
+
+method_missing es puede sobreescribir para atrapar mensajes repetidos, ta weno para proxy
+
+Si se redefine method_missing, hay q tener cuidado con respond_to?
