@@ -72,3 +72,7 @@ to_s se usa por defecto en string interpolation
 :: para scope global
 
 Se pueden obtener constantes explicitamente con const_get
+
+Se pueden definir metodos en objetos individuales (?)
+
+Class methods se definen como class.method o self.method o class << self
